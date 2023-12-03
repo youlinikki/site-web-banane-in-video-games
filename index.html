@@ -1,0 +1,90 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jeu et banane - accueil</title>
+    <link rel="icon" type="image/x-icon" href="images/bananaspin.gif" />
+    <link href="style.css" rel="stylesheet" type="text/css" media="all" />
+    <meta
+      name="keywords"
+      content="banane, bananes, jeu, jeu vidéo, jeux vidéos, analyse, fruit, game"
+    />
+    <meta
+      name="description"
+      content="Site web consacré aux bananes dans les jeux vidéos"
+    />
+    <meta name="author" content="Nicolaou Iouli" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="index.html" class="skeumorph"><p>ACCUEIL</p></a>
+        <a href="analyse.html" class="skeumorph"><p>RECHERCHES</p></a>
+        <a href="jeu.html" class="skeumorph"><p>LISTE DE JEUX</p></a>
+      </nav>
+      
+      <div><nav class="mininavbar">
+        <a href="javascript:void(0)" onclick="openNav(navbar.id)"class="skeumorph"><p>&#9776;</p></a>
+      </div>
+      
+      <div id="navbar" style="display: none;"><nav class="mininavbar">
+        <a href="index.html" class="skeumorph"><p>ACCUEIL</p></a>
+        <a href="analyse.html" class="skeumorph"><p>RECHERCHES</p></a>
+        <a href="jeu.html" class="skeumorph"><p>LISTE DE JEUX</p></a>
+      </div></nav>
+
+    </header>
+    <main>
+      <div>
+        <h1>L'étrange amour du jeu vidéo pour les bananes</h1>
+        <h2>
+          <em
+            >Un site parfaitement sérieux concernant la présence récurrente de
+            la banane dans le paysage vidéoludique.</em
+          >
+        </h2>
+      </div>
+      <div class="box">
+        <div class="skeumorph sousbox1">
+          <img
+            src="images/bananaspin.gif"
+            style="height: 100%; width: 100%"
+            alt="gif de banane en pixel art tournant sur elle même"
+          />
+        </div>
+
+        <div class="skeumorph sousbox2">
+          <p>
+            &nbsp &nbsp &nbsp &nbsp &nbsp
+            <b>Alors</b> que je dégustais une banane, une réflexion saugrenu me traversa l'esprit. La banane, fruit
+            consommé partout sur le globle, est étrangement commun dans le monde
+            du jeu vidéo. Objet, collectible, personnage, gag et plus encore, ce
+            fruit se cache a plus d'endroit qu'on pourrait le penser. Ce site
+            vous propose une petite exploration de la banane dans le jeu vidéo, ainsi qu'un répertoire de jeu en contenant.
+          </p>
+          <p>bon ok c'est faux c'est un ami qui m'a donné l'idée</p>
+          <img src="images/screenshot.png" style="height: 50%; width: 50%" alt="capture d'écran d'une conversation discord entre moi et un ami. Je demande à mon ami sur quoi mon site pourrais être, celui ci me répond sur les bananes" />
+        </div>
+      </div>
+    </main>
+    <footer >
+      <p><b>fait avec amour par Iouli Nicolaou, grand fan de Donkey Kong</b></p>
+    </footer>
+  </body>
+
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+  </style>
+
+<script>
+  function openNav(e) {
+    console.log(e);
+    if (document.getElementById(e).style.display == "block") {
+      document.getElementById(e).style.display = "none";
+    } else {
+      document.getElementById(e).style.display = "block";
+    }
+  }
+</script>
+</html>
